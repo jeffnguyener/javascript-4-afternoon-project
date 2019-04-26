@@ -58,15 +58,16 @@ class Employee {
 */
 
 //Code Here
-class WidgetCo extends Employee {
-  constructor(first_name, last_name, email, age, reports, hire) {
+class Manager extends Employee {
+  constructor(first_name, last_name, email, age, reports) {
     super(first_name, last_name, email, age)
-    this.reports = reports
-    this.hire = hire
+    this.reports = []
   }
-
-  reports(){
-
+  hire(Employee) {
+    this.reports.push(Employee)
+  }
+  fire(index) {
+    this.reports.splice(index,1)
   }
 }
 
