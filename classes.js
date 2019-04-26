@@ -93,7 +93,13 @@ class Manager extends Employee {
 */
 
 //Code Here
-
+class ProgressiveManager extends Manager {
+  constructor(first_name, last_name, email, age, reports, title, bonus) {
+    this.title = 'not a manager'
+    this.bonus = 0
+  }
+  if()
+}
 
 
 ////////// PROBLEM 4 - Black Diamond //////////
