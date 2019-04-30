@@ -38,7 +38,7 @@ class Employee {
     this.age = age
   }
   makeWidget() {
-    return this.first_name + this.last_name + widget
+    return this.first_name + " " + this.last_name + " Widget"
   }
 }
 
@@ -101,8 +101,8 @@ class ProgressiveManager extends Manager {
   }
   hire() {
     super.hire()
-    if (this.reports.length > 4) {
-      this.title = 'Barley Manager'
+    if (this.reports.length < 4) {
+      this.title = 'Barely Manager'
     } else if (this.reports.length < 11) {
       this.title = 'Mostly Manager'
     } else if (this.reports.length < 51) {
@@ -144,5 +144,13 @@ class ProgressiveManager extends Manager {
 */
 
 //Code Here
+class Machine {
+  constructor() {
+    super();
+    this.widgets_made_count = 0
+    this.wear_and_tear_count = 0
+    this.needs_reboot = false
+  }
 
+}
 
