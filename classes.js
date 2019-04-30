@@ -145,12 +145,12 @@ class ProgressiveManager extends Manager {
 
 //Code Here
 class Machine {
-  constructor() {
-    super();
-    this.widgets_made_count = 0
-    this.wear_and_tear_count = 0
-    this.needs_reboot = false
-  }
+  // constructor() {
+  //   super();
+  //   this.widgets_made_count = 0
+  //   this.wear_and_tear_count = 0
+  //   this.needs_reboot = false
+  // }
 
 }
 
