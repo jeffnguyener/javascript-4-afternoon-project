@@ -21,7 +21,7 @@
 
 //Code Here
 
-
+user = ('username', 'email', 'getUsername')
 
 ////////// PROBLEM 2 //////////
 
