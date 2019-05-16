@@ -21,7 +21,9 @@
 
 //Code Here
 
-user = ('username', 'email', 'getUsername')
+user = {username: '', email: '', getUsername: function(){
+  return this.username
+}} 
 
 ////////// PROBLEM 2 //////////
 
@@ -42,7 +44,7 @@ class Animal {
 }
 
 //Code Here
-
+let animal1 = this.new
 
 
 ////////// PROBLEM 3 //////////
@@ -63,7 +65,7 @@ let who = {
 
 //Code Here
 
-
+let whoSaysHi = this.sayHi.bind()
 
 ////////// PROBLEM 4 //////////
 
